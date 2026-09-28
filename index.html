@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="Moraboina Naveen Krishna - portfolio.">
+  <title>Moraboina Naveen Krishna | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+  <style>
+:root{--blue:#0078d4;--blue2:#50e6ff;--ink:#111827;--muted:#667085;--bg:#fff;--soft:#f4f7fb;--dark:#07111f;--line:#dfe5ec;--max:1160px;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth;scroll-padding-top:env(safe-area-inset-top,0px)}body{font-family:Inter,Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.6}a{text-decoration:none;color:inherit}.container{width:min(100% - 40px,var(--max));margin:auto}
+.header{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:rgba(255,255,255,.94);backdrop-filter:blur(14px);border-bottom:1px solid #e9edf2}.nav{height:72px;display:flex;align-items:center;justify-content:space-between}.logo{font-size:22px;font-weight:800}.logo>span:last-child{color:var(--blue)}.ms-grid{display:inline-block;width:15px;height:15px;margin-right:8px;vertical-align:-1px;background:linear-gradient(90deg,var(--blue) 47%,transparent 47%,transparent 53%,var(--blue) 53%),linear-gradient(0deg,var(--blue) 47%,transparent 47%,transparent 53%,var(--blue) 53%)}.nav-links{display:flex;gap:26px;font-size:14px;font-weight:600}.nav-links a:hover{color:var(--blue)}.menu-btn{display:none;background:none;border:0;font-size:25px}
+
+.hero{padding:105px 0 90px;background:radial-gradient(circle at 85% 25%,#dff4ff 0,transparent 30%),linear-gradient(135deg,#f9fbff,#fff)}.hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:70px;align-items:center}.eyebrow,.section-label{font-size:12px;font-weight:800;letter-spacing:.16em;color:var(--blue)}.dot{display:inline-block;width:7px;height:7px;background:var(--blue);border-radius:50%;margin-right:7px}.hero h1{font-size:clamp(48px,7vw,88px);line-height:.98;letter-spacing:-.055em;margin:20px 0}.hero h1 span{color:var(--blue)}.hero-role{font-size:19px;font-weight:700;margin-bottom:15px}.hero-text{color:var(--muted);max-width:670px;font-size:17px}.actions{display:flex;gap:12px;margin:30px 0 22px;flex-wrap:wrap}.btn{display:inline-flex;align-items:center;justify-content:center;padding:13px 20px;border-radius:7px;font-weight:700;font-size:14px}.primary{background:var(--blue);color:white}.primary:hover{background:#0067b8}.secondary{border:1px solid #cbd5e1;background:white}.secondary:hover{border-color:var(--blue);color:var(--blue)}.socials{display:flex;gap:22px;font-weight:700;font-size:14px}.socials a{border-bottom:1px solid #aab4c0}.hero-card{background:var(--dark);color:#dce8f5;border-radius:16px;padding:0;box-shadow:0 30px 70px rgba(8,37,67,.2);overflow:hidden}.card-top{height:38px;background:#0c1b2d;display:flex;align-items:center;gap:6px;padding:0 15px}.card-top span{width:8px;height:8px;border-radius:50%;background:#60758d}.code-window{padding:30px;font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-size:14px;line-height:2}.code-window b{color:#72b9ff}.code-window em{color:#9ce7b4;font-style:normal}.indent{padding-left:22px}.indent2{padding-left:44px}.mini-stat{border-top:1px solid #20334a;padding:18px 30px;display:flex;gap:14px;align-items:center}.mini-stat strong{font-size:25px;color:var(--blue2)}.mini-stat span{font-size:12px;color:#a9b8c8}
+
+.section{padding:100px 0}.section h2{font-size:clamp(34px,4.5vw,55px);line-height:1.05;letter-spacing:-.04em;margin-top:12px}.two-col{display:grid;grid-template-columns:.9fr 1.1fr;gap:80px}.about-copy{font-size:17px;color:#4f5d6d}.about-copy p+p{margin-top:18px}.facts{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:35px}.facts div{border-top:2px solid var(--ink);padding-top:10px}.facts b,.facts span{display:block}.facts b{font-size:12px;text-transform:uppercase;letter-spacing:.08em}.facts span{font-size:13px;margin-top:5px}.muted{background:var(--soft)}.skill-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px;margin-top:40px}.skill-card{background:#fff;border:1px solid var(--line);padding:25px;border-radius:10px;min-height:180px}.skill-card span,.project-num{color:var(--blue);font-size:12px;font-weight:800}.skill-card h3{font-size:20px;margin:22px 0 7px}.skill-card p{font-size:14px;color:var(--muted)}.section-head{display:flex;align-items:center;justify-content:space-between;gap:20px}.editable{border:1px solid #b9dafa;color:var(--blue);font-size:10px;padding:6px 9px;border-radius:20px;font-weight:800;letter-spacing:.08em}.project-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:40px}.project{border:1px solid var(--line);padding:26px;border-radius:10px;min-height:310px;position:relative;display:flex;flex-direction:column}.project.featured{border-top:4px solid var(--blue)}.tag{font-size:10px;text-transform:uppercase;letter-spacing:.12em;font-weight:800;margin-top:18px;color:#526274}.project h3{font-size:23px;margin:7px 0}.project p{font-size:14px;color:var(--muted)}.tech{display:flex;gap:7px;flex-wrap:wrap;margin:20px 0}.tech span{background:var(--soft);padding:5px 8px;border-radius:4px;font-size:11px;font-weight:700}.project a{margin-top:auto;color:var(--blue);font-weight:700;font-size:13px}
+
+.dark{background:var(--dark);color:white}.light{color:var(--blue2)}.light-edit{border-color:#31506e;color:var(--blue2)}.hackathon-box{margin-top:40px;border:1px solid #263c54;border-radius:14px;padding:45px;display:grid;grid-template-columns:130px 1fr;gap:35px;background:linear-gradient(135deg,#091a2e,#07111f)}.big-number{font-size:70px;font-weight:800;color:var(--blue2);line-height:1}.status{color:var(--blue2);font-size:11px;font-weight:800;letter-spacing:.15em}.hackathon-box h3{font-size:34px;margin:10px 0}.hackathon-box p{color:#b8c7d7;max-width:700px}.hack-fields{display:flex;gap:10px;flex-wrap:wrap;margin-top:25px}.hack-fields span{border:1px solid #29425d;padding:9px 12px;border-radius:6px;font-size:12px;color:#9fb0c2}.hack-fields b{color:white}.cert-list{margin-top:40px;border-top:1px solid var(--line)}.cert{display:grid;grid-template-columns:60px 1fr 20px;gap:15px;align-items:center;padding:22px 5px;border-bottom:1px solid var(--line)}.cert>span{color:var(--blue);font-weight:800}.cert h3{font-size:17px}.cert p{font-size:13px;color:var(--muted)}.cert>b{color:var(--blue)}.resume{background:#eaf6ff}.resume-box{display:flex;justify-content:space-between;align-items:center;gap:30px}.resume-box h2{max-width:650px}.resume-box p:last-child{color:var(--muted);margin-top:12px}.contact{background:#f8fafc}.contact-intro{margin:20px 0 35px;color:var(--muted);max-width:600px}.contact-grid{display:grid;grid-template-columns:1fr 1fr;border-top:1px solid var(--line)}.contact-grid a{padding:23px 5px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:20px}.contact-grid span{font-size:12px;text-transform:uppercase;letter-spacing:.1em;color:var(--muted)}.contact-grid b{font-size:14px;color:var(--blue);text-align:right}footer{background:#050b13;color:#92a2b3;padding:25px 0;font-size:12px}footer .container{display:flex;justify-content:space-between}
+
+@media(max-width:850px){.nav-links{display:none;position:absolute;top:72px;left:0;right:0;background:white;padding:20px;flex-direction:column;gap:15px;border-bottom:1px solid var(--line)}.nav-links.open{display:flex}.menu-btn{display:block}.hero-grid,.two-col{grid-template-columns:1fr}.hero-card{max-width:600px}.skill-grid,.project-grid{grid-template-columns:1fr 1fr}.two-col{gap:35px}.facts{grid-template-columns:1fr}.hackathon-box{grid-template-columns:1fr}.resume-box{flex-direction:column;align-items:flex-start}.contact-grid{grid-template-columns:1fr}}
+@media(max-width:520px){.container{width:min(100% - 28px,var(--max))}.hero{padding:70px 0}.section{padding:70px 0}.skill-grid,.project-grid{grid-template-columns:1fr 1fr}.hero h1{font-size:51px}.code-window{padding:22px 16px;font-size:11px}.contact-grid a{flex-direction:column;gap:5px}.contact-grid b{text-align:left}footer .container{flex-direction:column;gap:8px}}
+
+.nav-right{display:flex;align-items:center;gap:18px}
+.theme-btn{background:none;border:1px solid var(--line);border-radius:8px;width:38px;height:38px;font-size:16px;cursor:pointer;line-height:1;color:var(--ink)}
+.theme-btn:hover{border-color:var(--blue)}
+
+:root[data-theme="dark"]{--bg:#0b1220;--ink:#e7edf5;--muted:#93a1b3;--soft:#111a2b;--line:#22304a}
+[data-theme="dark"] .header{background:rgba(11,18,32,.92);border-bottom-color:#1b2740}
+[data-theme="dark"] .hero{background:radial-gradient(circle at 85% 25%,#101e33 0,transparent 30%),linear-gradient(135deg,#0b1220,#0b1220)}
+[data-theme="dark"] .secondary{background:transparent;border-color:#2a3a52;color:var(--ink)}
+[data-theme="dark"] .skill-card{background:#101a2c;border-color:#22304a}
+[data-theme="dark"] .project{background:transparent}
+[data-theme="dark"] .contact{background:#0e1626}
+[data-theme="dark"] .nav-links{background:#0b1220}
+[data-theme="dark"] .theme-btn{border-color:#2a3a52;color:var(--ink)}
+
+.about-badge{
+  border-radius:16px;
+  border:1px solid var(--line);
+  padding:16px 20px;
+  margin:14px 0 20px;
+  max-width:520px;
+  background-image:repeating-linear-gradient(45deg, rgba(0,120,212,0.08) 0 8px, transparent 8px 16px);
+}
+.about-badge p{margin:0;font-size:0.95rem;color:var(--ink);line-height:1.55}
+[data-theme="dark"] .about-badge{
+  border-color:#2a3a52;
+  background-image:repeating-linear-gradient(45deg, rgba(80,230,255,0.10) 0 8px, transparent 8px 16px);
+}
+  
+  </style>
+</head>
+<body>
+  <header class="header">
+    <nav class="nav container">
+      <a class="logo" href="#home"><span class="ms-grid"></span>Naveen<span>.</span></a>
+      <div class="nav-right">
+        <div class="nav-links">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#certifications">Certifications</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <button class="theme-btn" id="themeBtn" aria-label="Toggle dark mode">🌙</button>
+        <button class="menu-btn" aria-label="Open menu">☰</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div>
+          <div class="eyebrow"><span class="dot"></span> PORTFOLIO</div>
+          <h1>Moraboina<br><span>Naveen Krishna</span></h1>
+          <div class="about-badge">
+            <p>I am a self-motivated and independent person. I believe I can achieve anything through hard work and smart work. I always believe in myself and never give up.</p>
+          </div>
+          <p class="hero-role">CSE (IoT & CSBT) Student · Builder · Problem Solver</p>
+          <p class="hero-text">
+            3rd Year, 1st Semester student at PACE Institute of Technology and Sciences,
+            exploring Cybersecurity, IoT, Embedded Systems and AI to build practical solutions.
+          </p>
+          <div class="actions">
+            <a class="btn primary" href="#projects">Explore My Work →</a>
+            <a class="btn secondary" href="#contact">Contact Me</a>
+          </div>
+          <div class="socials">
+            <a href="https://github.com/Mnaveen47" target="_blank" rel="noopener">GitHub ↗</a>
+            <a href="https://www.linkedin.com/in/naveen-krishna-moraboina-bb866336a" target="_blank" rel="noopener">LinkedIn ↗</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <div class="card-top"><span></span><span></span><span></span></div>
+          <div class="code-window">
+            <p><b>const</b> developer = {</p>
+            <p class="indent">name: <em>"Naveen Krishna"</em>,</p>
+            <p class="indent">focus: [</p>
+            <p class="indent2"><em>"Cybersecurity"</em>,</p>
+            <p class="indent2"><em>"IoT"</em>,</p>
+            <p class="indent2"><em>"Embedded Systems"</em></p>
+            <p class="indent">],</p>
+            <p class="indent">mindset: <em>"Build & Learn"</em></p>
+            <p>};</p>
+          </div>
+          <div class="mini-stat"><strong>3-1</strong><span>Current Semester</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container two-col">
+        <div>
+          <p class="section-label">01 · ABOUT</p>
+          <h2>Building ideas that solve real problems.</h2>
+        </div>
+        <div class="about-copy">
+          <p>
+            I am a CSE (IoT & CSBT) student interested in turning technology into useful,
+            practical solutions. My learning path combines software, connected devices,
+            embedded systems and cybersecurity.
+          </p>
+          <p>
+            For hackathons, I enjoy understanding a problem, designing a simple solution,
+            building a prototype and improving it through feedback.
+          </p>
+          <div class="facts">
+            <div><b>Degree</b><span>CSE (IoT & CSBT)</span></div>
+            <div><b>Year</b><span>3rd Year · 1st Semester</span></div>
+            <div><b>Institute</b><span>PACE Institute of Technology and Sciences</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section muted">
+      <div class="container">
+        <p class="section-label">02 · SKILLS</p>
+        <h2>My technical toolkit</h2>
+        <div class="skill-grid">
+          <div class="skill-card"><span>01</span><h3>Programming</h3><p>C · Python · Java · HTML · CSS · JavaScript</p></div>
+          <div class="skill-card"><span>02</span><h3>Cybersecurity</h3><p>Networking fundamentals · Linux · Security fundamentals</p></div>
+          <div class="skill-card"><span>03</span><h3>IoT</h3><p>Sensors · Microcontrollers · Connected systems · Prototyping</p></div>
+          <div class="skill-card"><span>04</span><h3>Embedded Systems</h3><p>Microcontrollers · UART · RTOS fundamentals · Embedded concepts</p></div>
+          <div class="skill-card"><span>05</span><h3>AI & Problem Solving</h3><p>AI concepts · Project ideation · Practical solution design</p></div>
+          <div class="skill-card"><span>06</span><h3>Tools</h3><p>Git · GitHub · Arduino IDE · VS Code</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <p class="section-label">03 · PROJECTS</p>
+        <div class="section-head"><h2>Projects & prototypes</h2><span class="editable">EDITABLE</span></div>
+        <div class="project-grid">
+          <!-- EDIT PROJECTS HERE -->
+          <article class="project featured">
+            <div class="project-num">01</div><div class="tag">IoT</div>
+            <h3>Smart Garbage Monitor</h3>
+            <p>An IoT concept for monitoring garbage-bin status and helping improve waste collection efficiency.</p>
+            <div class="tech"><span>IoT</span><span>Sensors</span><span>Microcontroller</span></div>
+            <a href="https://github.com/Mnaveen47" target="_blank" rel="noopener">View GitHub ↗</a>
+          </article>
+          <article class="project">
+            <div class="project-num">02</div><div class="tag">IoT</div>
+            <h3>Smart Parking System</h3>
+            <p>A prototype concept to detect parking-slot availability and make parking management smarter.</p>
+            <div class="tech"><span>IoT</span><span>Sensors</span><span>Automation</span></div>
+            <a href="https://github.com/Mnaveen47" target="_blank" rel="noopener">View GitHub ↗</a>
+          </article>
+          <article class="project">
+            <div class="project-num">03</div><div class="tag">Safety</div>
+            <h3>Gas Leakage Alert System</h3>
+            <p>A sensor-based safety concept designed to detect gas leakage and provide an early alert.</p>
+            <div class="tech"><span>Sensor</span><span>Embedded</span><span>Alert</span></div>
+            <a href="https://github.com/Mnaveen47" target="_blank" rel="noopener">View GitHub ↗</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="certifications" class="section">
+      <div class="container">
+        <p class="section-label">04 · CERTIFICATIONS</p>
+        <div class="section-head"><h2>Learning & certifications</h2><span class="editable">EDITABLE</span></div>
+        <div class="cert-list">
+          <!-- EDIT CERTIFICATIONS HERE -->
+          <div class="cert"><span>01</span><div><h3>Add your certification</h3><p>Certification provider · Year</p></div><b>↗</b></div>
+          <div class="cert"><span>02</span><div><h3>Add your certification</h3><p>Certification provider · Year</p></div><b>↗</b></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container">
+        <p class="section-label">05 · CONTACT</p>
+        <h2>Let's build something useful.</h2>
+        <p class="contact-intro">Interested in collaborating on a hackathon, IoT prototype, cybersecurity project or AI idea?</p>
+        <div class="contact-grid">
+          <a href="mailto:moraboinanaveen4747@gmail.com"><span>Email</span><b>moraboinanaveen4747@gmail.com ↗</b></a>
+          <a href="tel:+917569524605"><span>Phone</span><b>+91 75695 24605 ↗</b></a>
+          <a href="https://www.linkedin.com/in/naveen-krishna-moraboina-bb866336a" target="_blank" rel="noopener"><span>LinkedIn</span><b>Connect with me ↗</b></a>
+          <a href="https://github.com/Mnaveen47" target="_blank" rel="noopener"><span>GitHub</span><b>@Mnaveen47 ↗</b></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer><div class="container"><span>© 2026 Moraboina Naveen Krishna</span><span>Built for ideas that matter.</span></div></footer>
+  <script>
+    const menuBtn = document.querySelector('.menu-btn');
+    const navLinks = document.querySelector('.nav-links');
+    if(menuBtn && navLinks){
+      menuBtn.addEventListener('click', () => navLinks.classList.toggle('open'));
+      navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', () => navLinks.classList.remove('open')));
+    }
+
+    const themeBtn = document.getElementById('themeBtn');
+    const root = document.documentElement;
+    function applyTheme(mode){
+      root.setAttribute('data-theme', mode);
+      if(themeBtn) themeBtn.textContent = mode === 'dark' ? '☀️' : '🌙';
+    }
+    let saved = null;
+    try{ saved = localStorage.getItem('theme'); }catch(e){}
+    applyTheme(saved === 'dark' ? 'dark' : 'light');
+    if(themeBtn){
+      themeBtn.addEventListener('click', () => {
+        const next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+        applyTheme(next);
+        try{ localStorage.setItem('theme', next); }catch(e){}
+      });
+    }
+  </script>
+</body>
+</html>
